@@ -6,9 +6,9 @@ import { useScreenHeightReset } from 'hooks/useScreen'
 import { theme } from 'constants/theme';
 import Routes from 'routes';
 import store from 'store';
-import { authLogout, authCheckReq } from 'store/authSlice';
+import { authLogout } from 'store/authSlice';
 
-store.dispatch(authCheckReq());
+// store.dispatch(authCheckReq());
 
 
 const queryClient = new QueryClient({
