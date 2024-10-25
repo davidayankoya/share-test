@@ -181,8 +181,8 @@ export const Input = React.memo(forwardRef(function Input ({
                     // isReadOnly={disabled}
                     size='md'
                     fontSize='md'
-                    color={color ?? TextColor.dark}
-                    bgColor={bgColor ?? BrandColor.offWhite}
+                    color={color ?? 'rgba(13, 41, 114, 1)'}
+                    bgColor={bgColor ?? BrandColor.white}
                     pl={leftIcon ? '42px' : '12px'}
                     pr={(rightIcon || type === 'password') ? '42px' : '12px'}
                     py='1.5rem'

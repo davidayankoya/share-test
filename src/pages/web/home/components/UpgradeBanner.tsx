@@ -33,7 +33,7 @@ function UpgradeBanner() {
                 </Text>
 
                 <Center px='1.5rem' py='1.5rem' pos='absolute' top='-2px' right='1rem' bgColor={BrandColor.blue}>
-                    <Text size='lg' weight={700} color={BrandColor.yellow}>$1</Text>
+                    <Text size='lg' weight={500} color={BrandColor.yellow}>$1</Text>
                 </Center>
             </HStack>
         </HStack>
