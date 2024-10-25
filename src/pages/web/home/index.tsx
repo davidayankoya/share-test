@@ -25,7 +25,7 @@ function Home() {
         <Container>
             <HStack w='full' h='full' align='start' spacing='0rem' justify='center' transition='all 1s ease-out' overflowY='auto' className='scroll-custom yesss'>
                 {/* Left */}
-                <VStack w={['full', 'full', '35%']} h={['90%', '90%', 'full']} spacing='0' bgColor={BrandColor.offWhite} boxShadow={!!modalToggled.action ? '4px 0px 5px rgba(0, 0, 0, 0.15)' : ''} zIndex={2}>
+                <VStack w={['full', 'full', '30%']} h={['90%', '90%', 'full']} spacing='0' bgColor={BrandColor.offWhite} boxShadow={!!modalToggled.action ? '4px 0px 5px rgba(0, 0, 0, 0.15)' : ''} zIndex={2}>
                     <HStack w='full' align='start' spacing='1.5rem' px='2rem' py='1.5rem' bgColor={BrandColor.primary}>
                         <Image
                             src={ProfilePic}

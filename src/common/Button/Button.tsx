@@ -43,8 +43,8 @@ function Button({
             colorScheme={colorScheme}
             borderRadius={radius || "22px"}
             margin={margin || '0px'}
-            fontWeight={fontWeight || 600}
-            fontSize={fontSize || 'md'}
+            fontWeight={fontWeight || 400}
+            fontSize={fontSize || 'lg'}
             px={[4, 4, 4]}
             py={[5, 5, 5]}
             // minW='140px'

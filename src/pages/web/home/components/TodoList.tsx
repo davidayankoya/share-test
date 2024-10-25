@@ -104,7 +104,7 @@ function TodoList() {
 
             <Flex w='full' mt='auto' justify='end' p='1.5rem'>
                 <Center
-                    p='1rem'
+                    p='1.2rem'
                     borderRadius='full'
                     bgColor={BrandColor.primary}
                     borderColor={BrandColor.buttonBlue}

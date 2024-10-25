@@ -150,11 +150,11 @@ export const Input = React.memo(forwardRef(function Input ({
                 <FormLabel
                     htmlFor={`${name} ${label}`}
                     color={TextColor.black}
-                    fontSize='sm'
+                    fontSize='md'
                     mb='8px'
                     fontWeight={400}
                     sx={labelStyle}
-                    letterSpacing='.2rem'
+                    letterSpacing='.1rem'
                 >
                     {label}{required && <Text size='sm' as='span' color='crimson'> *</Text>}
                 </FormLabel>
@@ -180,12 +180,12 @@ export const Input = React.memo(forwardRef(function Input ({
                     isRequired={required}
                     // isReadOnly={disabled}
                     size='md'
-                    fontSize='md'
+                    fontSize='lg'
                     color={color ?? 'rgba(13, 41, 114, 1)'}
                     bgColor={bgColor ?? BrandColor.white}
-                    pl={leftIcon ? '42px' : '12px'}
+                    pl={leftIcon ? '42px' : '20px'}
                     pr={(rightIcon || type === 'password') ? '42px' : '12px'}
-                    py='1.5rem'
+                    py='1.8rem'
                     h={props.h || '44px'}
                     borderStyle='inset'
                     _focus={{ border: `` }}

@@ -68,7 +68,7 @@ function TodoForm({ details }: TodoFormProps) {
                     borderWidth='2px'
                     borderRadius='6px'
                     w={['full', 'full', '20%']}
-                    py='1.5rem'
+                    py='1.8rem'
                     boxShadow='0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 1px rgba(168, 181, 222, 0.5) inset'
                     textShadow='0px 2px 0px rgba(0, 0, 0, 1)'
                     onClick={() => modalToggled.action === 'add' ? onCloseItem() : onDeleteItem()}
@@ -81,7 +81,7 @@ function TodoForm({ details }: TodoFormProps) {
                     borderWidth='2px'
                     borderRadius='6px'
                     w={['full', 'full', '80%']}
-                    py='1.5rem'
+                    py='1.8rem'
                     boxShadow='0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 1px rgba(168, 181, 222, 0.5) inset'
                     textShadow='0px 2px 0px rgba(0, 0, 0, 1)'
                     onClick={() => modalToggled.action === 'add' ? onAddItem() : onEditItem()}
