@@ -16,16 +16,16 @@ import ModalDrawer from 'common/Modal/ModalDrawer'
 import { toggleModal } from 'store/uiSlice'
 
 
-function Login() {
+function Home() {
     const dispatch = useAppDispatch()
     const { modalToggled } = useAppSelector(s => s.ui)
     const { isMobile } = useScreenSize()
 
     return (
         <Container>
-            <HStack w='full' h='full' align='start' spacing='0rem' justify='center' transition='all 1s ease-out'>
+            <HStack w='full' h='full' align='start' spacing='0rem' justify='center' transition='all 1s ease-out' overflowY='auto' className='scroll-custom yesss'>
                 {/* Left */}
-                <VStack w={isMobile ? 'full' : '35%'} h='full' spacing='0' bgColor={BrandColor.offWhite} boxShadow={!!modalToggled.action ? '4px 0px 5px rgba(0, 0, 0, 0.15)' : ''} zIndex={2}>
+                <VStack w={['full', 'full', '35%']} h={['90%', '90%', 'full']} spacing='0' bgColor={BrandColor.offWhite} boxShadow={!!modalToggled.action ? '4px 0px 5px rgba(0, 0, 0, 0.15)' : ''} zIndex={2}>
                     <HStack w='full' align='start' spacing='1.5rem' px='2rem' py='1.5rem' bgColor={BrandColor.primary}>
                         <Image
                             src={ProfilePic}
@@ -82,4 +82,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Home
